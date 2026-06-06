@@ -1,0 +1,6 @@
+[PANEL INFO] Starting your project using: main.py
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/bot-host/uploads/lam/main/extracted/main.py", line 15, in <module>
+    from telegram import ReplyKeyboardMarkup, KeyboardButton, Update, InlineKeyboardButton, InlineKeyboardMarkup
+ModuleNotFoundError: No module named 'telegram'

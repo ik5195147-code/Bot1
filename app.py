@@ -267,26 +267,26 @@ ADMIN_HTML = '''
     <style>
         :root { --bg: #030508; --card: rgba(22, 27, 34, 0.8); --accent: #00ffff; --text: #e6edf3; --glass: rgba(255, 255, 255, 0.05); }
         * { box-sizing: border-box; }
-        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 15px; min-height: 100vh; overflow-x: hidden; position: relative; }
+        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 15px; min-height: 100vh; overflow-x: hidden; position:[...]
         .bg-layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden; background: radial-gradient(circle at center, #0a0b10 0%, #000 100%); }
-        .bg-layer::before { content: ''; position: absolute; width: 200%; height: 200%; background: conic-gradient(from 0deg at 50% 50%, #00ffff10, #7000ff10, #00ffff10); animation: rotateMesh 20s linear infinite; }
+        .bg-layer::before { content: ''; position: absolute; width: 200%; height: 200%; background: conic-gradient(from 0deg at 50% 50%, #00ffff10, #7000ff10, #00ffff10); animation: rotateMesh 20[...]
         .orb { position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.3; animation: float 10s infinite alternate; }
         .orb-1 { width: 300px; height: 300px; background: var(--accent); top: -10%; left: -10%; }
         .orb-2 { width: 250px; height: 250px; background: #7000ff; bottom: -5%; right: -5%; animation-delay: -2s; }
         @keyframes rotateMesh { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
         @keyframes float { from { transform: translate(0,0); } to { transform: translate(30px, 50px); } }
-        .header { display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px; padding: 10px; background: var(--glass); border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(0, 255, 255, 0.2); }
+        .header { display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 20px; padding: 10px; background: var(--glass); border-radius: 15px; backd[...]
         .header h2 { font-size: 18px; color: var(--accent); margin: 0; letter-spacing: 1px; }
         .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
         .stat-card { background: var(--card); padding: 15px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); text-align: center; backdrop-filter: blur(5px); }
         .stat-card i { font-size: 20px; color: var(--accent); margin-bottom: 5px; }
         .stat-card p { font-size: 12px; margin: 5px 0; opacity: 0.7; }
         .stat-card div { font-size: 18px; font-weight: bold; }
-        .card { background: var(--card); padding: 15px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px; backdrop-filter: blur(10px); }
+        .card { background: var(--card); padding: 15px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px; backdrop-filte[...]
         h3 { margin-top: 0; font-size: 16px; color: var(--accent); display: flex; align-items: center; gap: 8px; }
         .input-group { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
         input { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #333; background: rgba(0,0,0,0.3); color: white; outline: none; }
-        .btn { padding: 12px; border-radius: 10px; border: none; font-weight: bold; cursor: pointer; text-align: center; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 14px; }
+        .btn { padding: 12px; border-radius: 10px; border: none; font-weight: bold; cursor: pointer; text-align: center; text-decoration: none; display: flex; align-items: center; justify-content[...]
         .btn-primary { background: linear-gradient(45deg, #00ffff, #7000ff); color: #000; }
         .btn-logout { background: #ff4757; color: white; padding: 8px 15px; }
         .user-item { background: rgba(255,255,255,0.03); border-radius: 12px; padding: 15px; margin-bottom: 10px; border: 1px solid rgba(255,255,255,0.05); }
@@ -300,17 +300,17 @@ ADMIN_HTML = '''
     </style>
 </head>
 <body>
-    <div class="bg-layer"><div class="orb orb-1"></div><div class="orb orb-2"></div><div style="position:absolute; width:100%; height:100%; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 118, 0.06)); background-size: 100% 4px, 3px 100%; pointer-events: none;"></div></div>
+    <div class="bg-layer"><div class="orb orb-1"></div><div class="orb orb-2"></div><div style="position:absolute; width:100%; height:100%; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rg[...]
     <div class="header"><h2><i class="fa-solid fa-shield-halved"></i> ROOT</h2><a href="/logout" class="btn btn-logout"><i class="fa-solid fa-power-off"></i></a></div>
-    <div class="stats-grid"><div class="stat-card"><i class="fa-solid fa-users"></i><p>Users</p><div>{{ users|length }}</div></div><div class="stat-card"><i class="fa-solid fa-rocket"></i><p>Active</p><div>{{ start_times|length }}</div></div></div>
-    <div class="card"><h3><i class="fa-solid fa-gears"></i> Default Password</h3><form action="/admin/global_pw" method="post" class="input-group"><input type="text" name="global_pw" value="{{ global_pw }}"><button type="submit" class="btn btn-primary">Update</button></form></div>
+    <div class="stats-grid"><div class="stat-card"><i class="fa-solid fa-users"></i><p>Users</p><div>{{ users|length }}</div></div><div class="stat-card"><i class="fa-solid fa-rocket"></i><p>Acti[...]
+    <div class="card"><h3><i class="fa-solid fa-gears"></i> Default Password</h3><form action="/admin/global_pw" method="post" class="input-group"><input type="text" name="global_pw" value="{{ gl[...]
     <div class="card"><h3><i class="fa-solid fa-user-gear"></i> User Management</h3>
         {% for u_name, u_pw in users.items() %}
         <div class="user-item"><div class="user-info"><span class="username"><i class="fa-solid fa-circle-user"></i> {{ u_name }}</span></div><div class="project-tags">
                 {% set count = namespace(value=0) %}
-                {% for p_key in start_times.keys() %}{% if p_key.startswith(u_name + '_') %}<span class="project-tag">● {{ p_key.split('_', 1)[1] }}</span>{% set count.value = count.value + 1 %}{% endif %}{% endfor %}
+                {% for p_key in start_times.keys() %}{% if p_key.startswith(u_name + '_') %}<span class="project-tag">● {{ p_key.split('_', 1)[1] }}</span>{% set count.value = count.value + 1 %[...]
                 {% if count.value == 0 %}<span style="color:#666; font-size:11px;">No active bots</span>{% endif %}
-            </div><div class="action-row"><form action="/admin/change_pw" method="post" style="display:flex; gap:5px;"><input type="hidden" name="username" value="{{ u_name }}"><input type="text" name="new_pw" value="{{ u_pw }}" style="padding:8px; font-size:12px;"><button type="submit" class="btn btn-primary" style="padding:8px 12px;"><i class="fa-solid fa-save"></i></button></form><a href="/admin/login_as/{{ u_name }}" class="btn btn-login"><i class="fa-solid fa-sign-in"></i></a></div></div>
+            </div><div class="action-row"><form action="/admin/change_pw" method="post" style="display:flex; gap:5px;"><input type="hidden" name="username" value="{{ u_name }}"><input type="text"[...]
         {% endfor %}
     </div>
 </body>
@@ -472,7 +472,7 @@ def run(name):
 
         available_files = os.listdir(extract_dir)
         
-        # main.py, app.py, bot.py ফাইলগুলোকে প্রায়োরিটি দিয়ে খোঁজা হচ্ছে
+        # main.py, app.py, bot.py ফাইলগুলোকে প্রায়োরিটি দিয়ে খোঁজা হচ্ছে
         main_file = next((f for f in ["main.py", "app.py", "bot.py", "index.js", "server.js"] if f in available_files), None)
         
         if main_file:
@@ -498,7 +498,7 @@ def run(name):
                     **kwargs
                 )
                 
-                # লগে ইউজারকে জানান কোন ফাইল দিয়ে বট চালু হলো
+                # লগে ইউজারকে জানান কোন ফাইল দিয়ে বট চালু হলো
                 log_file.write(f"[PANEL INFO] Starting your project using: {main_file}\n\n")
                 log_file.flush()
                 
@@ -644,4 +644,4 @@ def logout():
     return redirect(url_for("login"))
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3522, debug=True)
+    app.run(host="0.0.0.0", port=3522, debug=False)

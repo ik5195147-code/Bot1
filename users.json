@@ -1,0 +1,248 @@
+{
+    "admin": {
+        "password": "iftekhar@123",
+        "role": "admin"
+    },
+    "JUBAYER_CODEX12047": {
+        "password": "L7JvdBMBMK",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "62b97b9f",
+                "login_url": "/62b97b9f/login",
+                "dashboard_url": "/62b97b9f/home",
+                "full_link": "http://localhost:5000/62b97b9f/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:12.963998",
+                "expiry": "2026-06-29 15:25:12.907822",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX27469": {
+        "password": "Cz0dwM27Hn",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "68b9dd54",
+                "login_url": "/68b9dd54/login",
+                "dashboard_url": "/68b9dd54/home",
+                "full_link": "http://localhost:5000/68b9dd54/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:30.476307",
+                "expiry": "2026-06-29 15:25:30.439684",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX29825": {
+        "password": "RIFuVW9RrR",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "ac860caf",
+                "login_url": "/ac860caf/login",
+                "dashboard_url": "/ac860caf/home",
+                "full_link": "http://localhost:5000/ac860caf/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:31.872110",
+                "expiry": "2026-06-29 15:25:31.835509",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX49429": {
+        "password": "5W77hI5ZOi",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "e0aaba71",
+                "login_url": "/e0aaba71/login",
+                "dashboard_url": "/e0aaba71/home",
+                "full_link": "http://localhost:5000/e0aaba71/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:33.155218",
+                "expiry": "2026-06-29 15:25:33.120362",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX44565": {
+        "password": "hMhbrRNChY",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "384b412b",
+                "login_url": "/384b412b/login",
+                "dashboard_url": "/384b412b/home",
+                "full_link": "http://localhost:5000/384b412b/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:34.859829",
+                "expiry": "2026-06-29 15:25:34.821104",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX59319": {
+        "password": "4gsReWeiCQ",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "f2fed8a0",
+                "login_url": "/f2fed8a0/login",
+                "dashboard_url": "/f2fed8a0/home",
+                "full_link": "http://localhost:5000/f2fed8a0/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:36.012446",
+                "expiry": "2026-06-29 15:25:35.975991",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX40748": {
+        "password": "vrr0DkyoCm",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "a4001b81",
+                "login_url": "/a4001b81/login",
+                "dashboard_url": "/a4001b81/home",
+                "full_link": "http://localhost:5000/a4001b81/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:37.356622",
+                "expiry": "2026-06-29 15:25:37.314566",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "JUBAYER_CODEX77841": {
+        "password": "ZHSM8doZWR",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "f05f21cd",
+                "login_url": "/f05f21cd/login",
+                "dashboard_url": "/f05f21cd/home",
+                "full_link": "http://localhost:5000/f05f21cd/login",
+                "type": "python",
+                "ram": "1GB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 15:25:38.664541",
+                "expiry": "2026-06-29 15:25:38.619855",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 30,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "flask_app_xw3y": {
+        "password": "TfExDc6VYQbo",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "9954b1f2",
+                "link": "9954b1f2",
+                "login_url": "/9954b1f2/login",
+                "dashboard_url": "/9954b1f2/home",
+                "full_link": "http://localhost:5000/9954b1f2/home",
+                "type": "python",
+                "ram": "512MB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 16:17:09.864848",
+                "expiry": "2026-06-29 16:17:09.779228",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 80,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    },
+    "flask_app_723e": {
+        "password": "VyTXNhTJgA61",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "8d1281bd",
+                "link": "8d1281bd",
+                "login_url": "/8d1281bd/login",
+                "dashboard_url": "/8d1281bd/home",
+                "full_link": "http://localhost:5000/8d1281bd/home",
+                "type": "python",
+                "ram": "512MB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-06-26 16:27:08.295363",
+                "expiry": "2026-06-27 16:27:08.234282",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 80,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": false
+            }
+        ]
+    }
+}

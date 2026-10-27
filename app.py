@@ -14,6 +14,8 @@ import zipfile
 import psutil
 
 app = Flask(__name__)
+from app2_proxy import register_app2_proxy
+register_app2_proxy(app)
 app.secret_key = 'IFTEKHAR-super-secret-key-2026'
 app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024
 

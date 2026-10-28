@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+projects/
+.pylibs/
+.secret_key
+.panel_password
+config.env
+.env
